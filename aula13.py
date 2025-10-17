@@ -99,3 +99,24 @@ print(f"Usando !r: {valor!r}")  # Saída: Usando !r: 'Olá\nMundo'
 print(f"Usando !a: {valor!a}")  # Saída: Usando !a: 'Ol\xE1\nMundo'
 
 """
+
+"""
+Exercícios
+1. Crie um programa que ler um texto e imprime-o centralizado em um campo de 50 caracteres, preenchido com hífens (-).
+
+2. Crie um programa que ler um número decimal e imprime-o com 4 casas decimais, sempre mostrando o sinal e preenchendo com zeros à esquerda para um total de 10 caracteres.
+
+3. Crie um programa que ler uma string e imprime sua representação oficial (usando repr) centralizada em um campo de 40 caracteres, preenchido com asteriscos (*).
+"""
+
+
+
+
+# texto = input("Digite um texto: ")
+# print(f"{texto:-^50}")
+
+# numero = float(input("Digite um número decimal: "))
+# print(f"{numero:+0>10.4f}")
+
+# texto = input("Digite uma string: ")
+# print(f"{texto!r:*^40}")
