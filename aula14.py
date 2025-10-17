@@ -11,10 +11,10 @@ print("%s tem %d anos." % (nome, idade))
 
 Operador %:
 %s - string
-%d - inteiro
+%d ou %i - inteiro
 %f - ponto flutuante
-%.2f - ponto flutuante com 2 casas decimais 
-x e X - hexadecimal (minúsculo e maiúsculo)
+%.2f - ponto flutuante com 2 casas decimais %
+%x e %X - hexadecimal (minúsculo e maiúsculo)
 
 print("Hexadecimal: %x" % 255)  # saída: ff
 print("Hexadecimal: %08X" % 255)  # saída: 000000FF
