@@ -5,6 +5,7 @@ Em Python, existem várias maneiras de formatar strings para incluir variáveis 
 str.format(): Usa chaves {} como marcadores de posição que são substituídos pelos valores passados ao método format(). Exemplo:
 print("{} tem {} anos.".format(nome, idade))
 
+Interpolação básica com %
 Operador %: Usa especificadores de formato dentro da string. Exemplo:
 print("%s tem %d anos." % (nome, idade))
 
@@ -13,6 +14,7 @@ Operador %:
 %d - inteiro
 %f - ponto flutuante
 %.2f - ponto flutuante com 2 casas decimais 
+x e X - hexadecimal (minúsculo e maiúsculo)
 """
 
 nome = 'Seu nome'
