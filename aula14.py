@@ -15,6 +15,10 @@ Operador %:
 %f - ponto flutuante
 %.2f - ponto flutuante com 2 casas decimais 
 x e X - hexadecimal (minúsculo e maiúsculo)
+
+print("Hexadecimal: %x" % 255)  # saída: ff
+print("Hexadecimal: %08X" % 255)  # saída: 000000FF
+print("Hexadecimal: %04x" % 255)  # saída: 00ff
 """
 
 nome = 'Seu nome'
