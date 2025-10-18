@@ -26,13 +26,17 @@ print(f'O maior número é {maior}')
 """
 Exercícios
 
-1. Crie um programa que ler um número e imprime se ele é positivo, negativo ou nulo.
+1. Faça um programa que ler um número e imprime se ele é positivo, negativo ou nulo.
 
-2. Crie um programa que ler três números e imprime-os em ordem crescente.
+2. Faça um programa que ler três números e imprime-os em ordem crescente.
 
-3. Crie um programa que ler três números e imprime-os em ordem decrescente.
+3. Faça um programa que ler três números e imprime-os em ordem decrescente.
 
-4. Crie um programa que ler cinco números inteiros diferentes e imprime o maior e o menor deles.
+4. Faça um programa que ler cinco números inteiros diferentes e imprime o maior e o menor deles.
+
+6. Faça um programa que pergunte a hora ao usuário e, baseado no horário informado exiba a saudação apropriada, ex.: Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
+
+7. Faça um programa que solicite o primeiro nome de uma pessoa. Se o nome tiver 4 letras ou menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva "Seu nome é médio"; maior que 6 escreva "Seu nome é grande".
 """
 
 
