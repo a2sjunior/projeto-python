@@ -93,8 +93,7 @@ ascii(): Retorna uma representação da string com caracteres não ASCII escapad
 Exemplo:
 
 valor = "Olá\nMundo"
-print(f"Usando !s: {valor!s}")  # Saída: Usando !s: Olá
-                                                    Mundo
+print(f"Usando !s: {valor!s}")  # Saída: Usando !s: Olá Mundo
 print(f"Usando !r: {valor!r}")  # Saída: Usando !r: 'Olá\nMundo'
 print(f"Usando !a: {valor!a}")  # Saída: Usando !a: 'Ol\xE1\nMundo'
 
