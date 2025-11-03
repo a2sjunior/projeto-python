@@ -39,7 +39,7 @@ print(f"Número formatado com separador de milhares: {numero_grande:,.2f}")  # S
 """
 
 """
-F-strings podm ser usadas para alinhar texto e números em colunas.
+F-strings podem ser usadas para alinhar texto e números em colunas.
 Caracteres de alinhamento:
 < : Alinha à esquerda
 > : Alinha à direita
@@ -119,3 +119,7 @@ Exercícios
 
 # texto = input("Digite uma string: ")
 # print(f"{texto!r:*^40}")
+
+"""
+Use f para ponto flutuante, d para inteiros e s para strings.
+"""
